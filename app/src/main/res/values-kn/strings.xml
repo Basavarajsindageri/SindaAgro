@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ಸಿಂಧಾಅಗ್ರೋ</string>
+    <string name="title_dashboard">ಎಐ ಕೃಷಿ ನಿರ್ಧಾರ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್</string>
+    <string name="title_farms">ನನ್ನ ಜಮೀನುಗಳು</string>
+    <string name="login_title">ಸಿಂಧಾಅಗ್ರೋ ಮೊಬೈಲ್</string>
+    <string name="login_subtitle">ಎಐ ಆಧಾರಿತ ಸ್ಮಾರ್ಟ್ ಕೃಷಿ ವೇದಿಕೆ</string>
+    <string name="btn_continue_phone">🌾 ಮೊಬೈಲ್ ಸಂಖ್ಯೆಯೊಂದಿಗೆ ಮುಂದುವರಿಯಿರಿ</string>
+    <string name="enter_phone_title">ಮೊಬೈಲ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="enter_phone_subtitle">10-ಅಂಕಿಯ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ</string>
+    <string name="enter_pin_title">4-ಅಂಕಿಯ ಭದ್ರತಾ ಪಿನ್ ನಮೂದಿಸಿ</string>
+    <string name="enter_pin_subtitle">ನಿಮ್ಮ ಭದ್ರತಾ ಪಿನ್ ಹೊಂದಿಸಿ ಅಥವಾ ನಮೂದಿಸಿ</string>
+    <string name="btn_login">ಡ್ಯಾಶ್‌ಬೋರ್ಡ್‌ಗೆ ಲಾಗಿನ್ ಮಾಡಿ</string>
+    <string name="btn_advanced_login">ಇಮೇಲ್ / ಬಳಕೆದಾರ ಹೆಸರಿನೊಂದಿಗೆ ಲಾಗಿನ್</string>
+    <string name="btn_back">ಹಿಂದೆ</string>
+    <string name="btn_confirm">ಖಚಿತಪಡಿಸಿ ಮುಂದುವರಿಯಿರಿ</string>
+    <string name="invalid_phone">ದಯವಿಟ್ಟು ಮಾನ್ಯವಾದ 10-ಅಂಕಿಯ ಮೊಬೈಲ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="invalid_pin">ದಯವಿಟ್ಟು 4-ಅಂಕಿಯ ಪಿನ್ ನಮೂದಿಸಿ</string>
+    <string name="login_success">ಲಾಗಿನ್ ಯಶಸ್ವಿಯಾಗಿದೆ!</string>
+    <string name="btn_add_farm">ಹೊಸ ಜಮೀನು ಸೇರಿಸಿ</string>
+
+    <!-- Home Screen Strings -->
+    <string name="home_greeting">ನಮಸ್ಕಾರ, %1$s 🌾</string>
+    <string name="home_location">%1$s, %2$s</string>
+    <string name="home_today_advisory">ಇಂದಿನ ಕೃಷಿ ಸಲಹೆ</string>
+    <string name="home_today_summary">%1$s ಜಿಲ್ಲೆಯಲ್ಲಿ ಉತ್ತಮ ಮಣ್ಣಿನ ತೇವಾಂಶ ಮತ್ತು ಹವಾಮಾನ</string>
+    <string name="home_tile_my_farm">ನನ್ನ ಜಮೀನು</string>
+    <string name="home_tile_check_soil">ಮಣ್ಣು ಪರೀಕ್ಷೆ</string>
+    <string name="home_tile_crop_recommendation">ಯಾವ ಬೆಳೆ ಬೆಳೆಯಬೇಕು?</string>
+    <string name="home_tile_weather">ಹವಾಮಾನ</string>
+    <string name="home_tile_market">ಮಾರುಕಟ್ಟೆ ದರ</string>
+    <string name="home_tile_assistant">ಎಐ ಸಹಾಯಕ</string>
+
+    <!-- Phase 4 Farm & Soil Strings -->
+    <string name="farm_list_title">ನನ್ನ ಜಮೀನುಗಳು</string>
+    <string name="farm_area">ವಿಸ್ತೀರ್ಣ: %1$.1f ಎಕರೆ</string>
+    <string name="soil_type">ಮಣ್ಣು: %1$s</string>
+    <string name="water_source">ನೀರಿನ ಆಸರೆ: %1$s</string>
+    <string name="soil_status_tested">ಮಣ್ಣು ಪರೀಕ್ಷಿಸಲಾಗಿದೆ ✓</string>
+    <string name="soil_status_pending">ಮಣ್ಣು ಪರೀಕ್ಷೆ ಅಗತ್ಯವಿದೆ ⚠️</string>
+    <string name="soil_entry_title">ಮಣ್ಣು ಪರೀಕ್ಷೆ ಮತ್ತು ಲ್ಯಾಬ್ ಸೇವೆ</string>
+    <string name="tab_manual_entry">ಲ್ಯಾಬ್ ವರದಿ ನಮೂದಿಸಿ</string>
+    <string name="tab_book_tester">ಮಣ್ಣು ಪರೀಕ್ಷಕರನ್ನು ಸಂಪರ್ಕಿಸಿ</string>
+    <string name="btn_submit_soil">ಮಣ್ಣಿನ ವರದಿ ಸಲ್ಲಿಸಿ</string>
+    <string name="btn_call_tester">ಮಣ್ಣು ಪರೀಕ್ಷಕರಿಗೆ ಕರೆ ಮಾಡಿ 📞</string>
+    <string name="btn_book_doorstep">ಮನೆಯ ಬಳಿಯೇ ಮಾದರಿ ಸಂಗ್ರಹಣೆ ಬುಕ್ ಮಾಡಿ</string>
+    <string name="order_success">ಮಣ್ಣು ಪರೀಕ್ಷೆ ಬುಕಿಂಗ್ ಯಶಸ್ವಿಯಾಗಿದೆ! ಆರ್ಡರ್ ಐಡಿ: %1$s</string>
+</resources>

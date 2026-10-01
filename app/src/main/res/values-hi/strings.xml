@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">सिंधाएग्रो</string>
+    <string name="title_dashboard">एआई कृषि निर्णय डैशबोर्ड</string>
+    <string name="title_farms">मेरे खेत</string>
+    <string name="login_title">सिंधाएग्रो मोबाइल</string>
+    <string name="login_subtitle">एआई स्मार्ट कृषि प्लेटफॉर्म</string>
+    <string name="btn_continue_phone">🌾 फोन नंबर के साथ आगे बढ़ें</string>
+    <string name="enter_phone_title">फोन नंबर दर्ज करें</string>
+    <string name="enter_phone_subtitle">10-अंकों का मोबाइल नंबर</string>
+    <string name="enter_pin_title">4-अंकों का सुरक्षा पिन दर्ज करें</string>
+    <string name="enter_pin_subtitle">अपना सुरक्षा पिन सेट या दर्ज करें</string>
+    <string name="btn_login">डैशबोर्ड में लॉगिन करें</string>
+    <string name="btn_advanced_login">ईमेल / यूजरनेम द्वारा लॉगिन करें</string>
+    <string name="btn_back">वापस</string>
+    <string name="btn_confirm">पुष्टि करें और आगे बढ़ें</string>
+    <string name="invalid_phone">कृपया वैध 10-अंकों का मोबाइल नंबर दर्ज करें</string>
+    <string name="invalid_pin">कृपया 4-अंकों का पिन दर्ज करें</string>
+    <string name="login_success">लॉगिन सफल रहा!</string>
+    <string name="btn_add_farm">नया खेत जोड़ें</string>
+
+    <!-- Home Screen Strings -->
+    <string name="home_greeting">नमस्ते, %1$s 🌾</string>
+    <string name="home_location">%1$s, %2$s</string>
+    <string name="home_today_advisory">आज की कृषि सलाह</string>
+    <string name="home_today_summary">%1$s जिले में अनुकूल मिट्टी नमी एवं साफ़ मौसम</string>
+    <string name="home_tile_my_farm">मेरा खेत</string>
+    <string name="home_tile_check_soil">मिट्टी जांच</string>
+    <string name="home_tile_crop_recommendation">कौन सी फसल उगाएं?</string>
+    <string name="home_tile_weather">मौसम</string>
+    <string name="home_tile_market">मंडी भाव</string>
+    <string name="home_tile_assistant">एआई सहायक</string>
+
+    <!-- Phase 4 Farm & Soil Strings -->
+    <string name="farm_list_title">मेरे खेत</string>
+    <string name="farm_area">क्षेत्रफल: %1$.1f एकड़</string>
+    <string name="soil_type">मिट्टी प्रकार: %1$s</string>
+    <string name="water_source">सिंचाई साधन: %1$s</string>
+    <string name="soil_status_tested">मिट्टी जांच पूर्ण ✓</string>
+    <string name="soil_status_pending">मिट्टी जांच आवश्यक ⚠️</string>
+    <string name="soil_entry_title">मिट्टी जांच एवं लैब सेवा</string>
+    <string name="tab_manual_entry">लैब रिपोर्ट दर्ज करें</string>
+    <string name="tab_book_tester">मिट्टी जांच विशेषज्ञ से संपर्क करें</string>
+    <string name="btn_submit_soil">मिट्टी रिपोर्ट जमा करें</string>
+    <string name="btn_call_tester">जांच विशेषज्ञ को कॉल करें 📞</string>
+    <string name="btn_book_doorstep">घर से सैंपल कलेक्शन बुक करें</string>
+    <string name="order_success">मिट्टी जांच बुकिंग सफल! ऑर्डर आईडी: %1$s</string>
+</resources>

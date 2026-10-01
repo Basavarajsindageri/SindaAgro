@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SindaAgro</string>
+    <string name="title_dashboard">AI Decision Dashboard</string>
+    <string name="title_farms">Farm Plots</string>
+    <string name="login_title">SindaAgro Mobile</string>
+    <string name="login_subtitle">AI Smart Agriculture Platform</string>
+    <string name="btn_continue_phone">🌾 Continue with Phone Number</string>
+    <string name="enter_phone_title">Enter Phone Number</string>
+    <string name="enter_phone_subtitle">10-digit mobile number</string>
+    <string name="enter_pin_title">Enter 4-Digit Security PIN</string>
+    <string name="enter_pin_subtitle">Set or enter your security PIN</string>
+    <string name="btn_login">Login to Dashboard</string>
+    <string name="btn_advanced_login">Email / Username Login</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_confirm">Confirm &amp; Proceed</string>
+    <string name="invalid_phone">Please enter a valid 10-digit phone number</string>
+    <string name="invalid_pin">Please enter a 4-digit PIN</string>
+    <string name="login_success">Login Successful!</string>
+    <string name="btn_add_farm">Add Farm Plot</string>
+
+    <!-- Home Screen Strings -->
+    <string name="home_greeting">Hello, %1$s 🌾</string>
+    <string name="home_location">%1$s, %2$s</string>
+    <string name="home_today_advisory">Today\'s Advisory</string>
+    <string name="home_today_summary">Optimal soil moisture &amp; clear weather in %1$s</string>
+    <string name="home_tile_my_farm">My Farm</string>
+    <string name="home_tile_check_soil">Check Soil</string>
+    <string name="home_tile_crop_recommendation">What Should I Grow?</string>
+    <string name="home_tile_weather">Weather</string>
+    <string name="home_tile_market">Market</string>
+    <string name="home_tile_assistant">Ask Assistant</string>
+
+    <!-- Phase 4 Farm & Soil Strings -->
+    <string name="farm_list_title">My Farm Plots</string>
+    <string name="farm_area">Area: %1$.1f Acres</string>
+    <string name="soil_type">Soil: %1$s</string>
+    <string name="water_source">Water: %1$s</string>
+    <string name="soil_status_tested">Soil Tested ✓</string>
+    <string name="soil_status_pending">Soil Test Needed ⚠️</string>
+    <string name="soil_entry_title">Soil Diagnostics &amp; Lab Service</string>
+    <string name="tab_manual_entry">Enter Lab Report</string>
+    <string name="tab_book_tester">Contact Soil Tester</string>
+    <string name="btn_submit_soil">Submit Soil Report</string>
+    <string name="btn_call_tester">Call Soil Tester 📞</string>
+    <string name="btn_book_doorstep">Book Doorstep Sample Pickup</string>
+    <string name="order_success">Soil test order placed! Order ID: %1$s</string>
+</resources>

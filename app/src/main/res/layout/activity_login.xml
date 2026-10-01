@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/bg_deep">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <!-- Logo & Header -->
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@android:drawable/ic_menu_crop"
+            android:layout_marginBottom="12dp"
+            app:tint="@color/primary_emerald" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_title"
+            android:textColor="@color/text_primary"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_subtitle"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp"
+            android:layout_marginBottom="28dp" />
+
+        <!-- First Run Mode Switcher (Phone vs Advanced) -->
+        <LinearLayout
+            android:id="@+id/layoutMainSelection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <!-- Primary Action: Continue with Phone Number -->
+            <Button
+                android:id="@+id/btnContinuePhone"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="@string/btn_continue_phone"
+                android:backgroundTint="@color/primary_emerald"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Secondary Action: Advanced Login -->
+            <Button
+                android:id="@+id/btnShowAdvanced"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:text="@string/btn_advanced_login"
+                android:textColor="@color/text_primary"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <!-- STEP 1: Phone Number Input Container -->
+        <LinearLayout
+            android:id="@+id/layoutPhoneContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_phone_title"
+                android:textColor="@color/text_primary"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_phone_subtitle"
+                android:textColor="@color/text_muted"
+                android:textSize="13sp"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/etPhone"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:hint="e.g. 9876543210"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColorHint="@color/text_muted"
+                android:textColor="@color/text_primary"
+                android:background="@color/bg_card"
+                android:paddingHorizontal="16dp"
+                android:layout_marginBottom="20dp" />
+
+            <Button
+                android:id="@+id/btnPhoneNext"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="@string/btn_confirm"
+                android:backgroundTint="@color/primary_emerald"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/btnPhoneBack"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/btn_back"
+                android:textColor="@color/text_secondary" />
+
+        </LinearLayout>
+
+        <!-- STEP 2: 4-Digit PIN Input Container -->
+        <LinearLayout
+            android:id="@+id/layoutPinContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_pin_title"
+                android:textColor="@color/text_primary"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/tvPinPhoneSub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_pin_subtitle"
+                android:textColor="@color/text_muted"
+                android:textSize="13sp"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/etPin"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:hint="••••"
+                android:inputType="numberPassword"
+                android:maxLength="4"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:letterSpacing="0.4"
+                android:textColorHint="@color/text_muted"
+                android:textColor="@color/text_primary"
+                android:background="@color/bg_card"
+                android:paddingHorizontal="16dp"
+                android:layout_marginBottom="20dp" />
+
+            <Button
+                android:id="@+id/btnPinSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="@string/btn_login"
+                android:backgroundTint="@color/primary_emerald"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/btnPinBack"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/btn_back"
+                android:textColor="@color/text_secondary" />
+
+        </LinearLayout>
+
+        <!-- Advanced Login (Username / Email + Password) Container -->
+        <LinearLayout
+            android:id="@+id/layoutAdvancedContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/etUsername"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:hint="Username or Email"
+                android:textColorHint="@color/text_muted"
+                android:textColor="@color/text_primary"
+                android:background="@color/bg_card"
+                android:paddingHorizontal="16dp"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColorHint="@color/text_muted"
+                android:textColor="@color/text_primary"
+                android:background="@color/bg_card"
+                android:paddingHorizontal="16dp"
+                android:layout_marginBottom="20dp" />
+
+            <Button
+                android:id="@+id/btnLoginAdvanced"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:text="@string/btn_login"
+                android:backgroundTint="@color/primary_emerald"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/btnAdvancedBack"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/btn_back"
+                android:textColor="@color/text_secondary" />
+
+        </LinearLayout>
+
+        <!-- Progress Bar -->
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>

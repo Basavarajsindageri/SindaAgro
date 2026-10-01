@@ -1,12 +1,14 @@
-# AgriVision AI - Python AI Service Module 🐍
+# AgriVision AI - Android Application Module 📱
 
-This directory will host the FastAPI Machine Learning & Recommendation Engine.
+This directory will host the native Android application for AgriVision AI.
 
 ## Planned Technology Stack
-- Python 3.11+
-- FastAPI
-- Pandas & NumPy
-- Scikit-learn
-- Uvicorn ASGI Server
+- Kotlin
+- Jetpack Compose (Modern Declarative UI)
+- MVVM Architecture
+- Hilt (Dependency Injection)
+- Retrofit (REST Networking)
+- Room (Offline SQLite Persistence)
+- WorkManager (Background Data Synchronization)
 
-*Module execution planned for Phase 16.*
+*Module execution planned for Phase 17.*
