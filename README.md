@@ -1,14 +1,28 @@
-# AgriVision AI - Android Application Module 📱
+# API Documentation Guidelines 📡
 
-This directory will host the native Android application for AgriVision AI.
+All AgriVision AI REST endpoints follow standard RESTful conventions:
 
-## Planned Technology Stack
-- Kotlin
-- Jetpack Compose (Modern Declarative UI)
-- MVVM Architecture
-- Hilt (Dependency Injection)
-- Retrofit (REST Networking)
-- Room (Offline SQLite Persistence)
-- WorkManager (Background Data Synchronization)
+- Base URL pattern: `/api/v1/{module}`
+- Standard Response Envelope:
+  ```json
+  {
+    "status": "UP | SUCCESS | ERROR",
+    "timestamp": "ISO-8601 Timestamp",
+    "data": { ... }
+  }
+  ```
 
-*Module execution planned for Phase 17.*
+## Current Active Endpoints
+
+### 1. System Health
+- **Endpoint**: `GET /api/v1/health`
+- **Description**: Returns the runtime operational status of the backend API.
+- **Authentication**: Public
+- **Response**:
+  ```json
+  {
+    "status": "UP",
+    "service": "AgriVision AI Backend API",
+    "timestamp": "2026-08-25T15:10:00Z"
+  }
+  ```
