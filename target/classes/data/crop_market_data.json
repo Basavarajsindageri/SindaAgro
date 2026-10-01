@@ -1,0 +1,66 @@
+{
+  "TURMERIC": {
+    "yieldVal": 90.0,
+    "yieldUnit": "quintals / acre",
+    "pricePerQuintal": 7500.0,
+    "inputCostPerAcre": 150000.0,
+    "demandStatus": "RISING",
+    "perishability": "LOW_RISK (Storable after boiling/drying)",
+    "transitionAdvice": "High-value commercial cash crop requiring raised beds, good soil drainage, and 9-month crop duration. High initial seed rhizome investment.",
+    "riskFactors": [
+      "Requires 9 months of land commitment",
+      "Higher initial capital required for quality rhizomes (₹1.5L/acre)"
+    ]
+  },
+  "TOMATO": {
+    "yieldVal": 180.0,
+    "yieldUnit": "quintals / acre",
+    "pricePerQuintal": 1800.0,
+    "inputCostPerAcre": 85000.0,
+    "demandStatus": "HIGH",
+    "perishability": "HIGH_RISK (Requires immediate market transport within 24-48h)",
+    "transitionAdvice": "Short-duration (90-110 days) horticultural crop with high turnover. Requires drip irrigation and staking infrastructure.",
+    "riskFactors": [
+      "Perishable crop requiring immediate market transport",
+      "Susceptible to seasonal price fluctuations in local mandis"
+    ]
+  },
+  "GROUNDNUT": {
+    "yieldVal": 12.0,
+    "yieldUnit": "quintals / acre",
+    "pricePerQuintal": 6500.0,
+    "inputCostPerAcre": 28000.0,
+    "demandStatus": "STABLE",
+    "perishability": "LOW_RISK (Dry oilseed with long shelf life)",
+    "transitionAdvice": "Leguminous oilseed crop requiring low water; fixes soil nitrogen for subsequent crops.",
+    "riskFactors": [
+      "Requires protection from wild boars and rodents at maturity",
+      "Susceptible to aflatoxin if harvested during unseasonal rains"
+    ]
+  },
+  "COTTON": {
+    "yieldVal": 12.0,
+    "yieldUnit": "quintals / acre",
+    "pricePerQuintal": 7200.0,
+    "inputCostPerAcre": 32000.0,
+    "demandStatus": "STABLE",
+    "perishability": "LOW_RISK (Commercial fiber, storable)",
+    "transitionAdvice": "Commercial fiber crop suitable for deep black soils. Best managed with integrated pest management (IPM).",
+    "riskFactors": [
+      "Requires multi-pick harvest labor",
+      "Pink bollworm pest infestation risk"
+    ]
+  },
+  "DEFAULT": {
+    "yieldVal": 20.0,
+    "yieldUnit": "quintals / acre",
+    "pricePerQuintal": 4000.0,
+    "inputCostPerAcre": 35000.0,
+    "demandStatus": "STABLE",
+    "perishability": "MODERATE",
+    "transitionAdvice": "Commercial alternative crop with moderate investment requirements.",
+    "riskFactors": [
+      "Market prices subject to local market supply"
+    ]
+  }
+}

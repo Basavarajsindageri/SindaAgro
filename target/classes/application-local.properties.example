@@ -1,0 +1,14 @@
+# ===================================================================
+# Local Development Properties Template (Example for GitHub)
+# Copy this file to application-local.properties and set your local MySQL password
+# DO NOT COMMIT YOUR REAL PASSWORD TO GIT!
+# ===================================================================
+
+spring.datasource.url=jdbc:mysql://localhost:3306/sindaagro_db?useSSL=false&serverTimezone=Asia/Kolkata
+spring.datasource.username=root
+spring.datasource.password=YOUR_MYSQL_PASSWORD
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
